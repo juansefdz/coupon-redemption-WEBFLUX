@@ -73,6 +73,13 @@
 			<version>2.5.0</version>
 		</dependency>
 
+		<!-- swagger webflux -->
+		<dependency>
+    		<groupId>org.springdoc</groupId>
+    		<artifactId>springdoc-openapi-webflux-ui</artifactId>
+    		<version>1.5.13</version>
+		</dependency>
+
 		<!-- Validations -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
