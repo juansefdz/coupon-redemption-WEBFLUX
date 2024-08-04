@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+    db:
+        image: mysql:8.0
+        container_name: coupon_redemption
+        restart: always
+        ports:
+            - "3308:3306"
+        environment:
+            MYSQL_ROOT_PASSWORD: root
+            MYSQL_DATABASE: coupon_redemption_db
+            MYSQL_USER: user
+            MYSQL_PASSWORD: password
